@@ -17,7 +17,7 @@ pagination:
 ---
 
 <div class="post">
-
+<!-- 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
@@ -27,7 +27,7 @@ pagination:
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
-  {% endif %}
+  {% endif %} -->
 
 {% if site.display_tags or site.display_categories %}
 
